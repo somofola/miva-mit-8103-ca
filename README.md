@@ -15,3 +15,17 @@
 ## Folder Structure
 The repository is organised into the following sections based on the assessment requirements:
 * `portfolio-1-database-design/` - SQL DDL scripts creating the relational schema with keys/constraints.
+* `portfolio-2-query-optimisation/` - SQL scripts displaying execution plans and indexing techniques.
+* `portfolio-3-transactions-concurrency/` - SQL transaction blocks with commits, rollbacks, and isolation levels.
+* `portfolio-4-nosql/` - MongoDB document model scripts managing dynamic product data.
+
+
+## MongoDB Setup & Execution
+
+### Prerequisites
+1. **Node.js** installed on your system.
+2. **MongoDB Database** running locally (default URI: `mongodb://localhost:27017`) or access to a MongoDB Atlas cluster.
+3. The official MongoDB Node.js driver must be installed. Initialize your environment and install the driver by running:
+   ```bash
+   npm init -y
+   npm install mongodb
